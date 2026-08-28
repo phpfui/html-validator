@@ -22,7 +22,7 @@ use HtmlValidator\Exception\UnknownParserException;
  * @author Espen Hovlandsdal <espen@hovlandsdal.com>
  * @copyright Copyright (c) Espen Hovlandsdal
  * @license http://www.opensource.org/licenses/mit-license MIT License
- * @link https://github.com/rexxars/html-validator
+ * @link https://github.com/phpfui/html-validator
  */
 class Validator {
 
@@ -122,7 +122,7 @@ class Validator {
     public function __construct($validatorUrl = self::DEFAULT_VALIDATOR_URL, $parser = self::PARSER_HTML5) {
         $this->httpClient = new HttpClient([
             'base_uri' => $validatorUrl,
-            'headers' => ['User-Agent' => 'rexxars/html-validator']
+            'headers' => ['User-Agent' => 'phpfui/html-validator']
         ]);
 
         $this->nodeWrapper = new NodeWrapper();

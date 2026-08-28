@@ -3,7 +3,7 @@ html-validator
 
 PHP client for the [validator.nu](https://validator.nu/) API. Can be configured to use a self-hosted version of the API.
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/rexxars/html-validator.svg?style=flat-square)](https://packagist.org/packages/rexxars/html-validator)[![PHP Version](https://img.shields.io/badge/php-%3E%3D%207.1-8892BF.svg?style=flat-square)](https://php.net)[![License](https://img.shields.io/github/license/rexxars/html-validator.svg?style=flat-square)](https://packagist.org/packages/rexxars/html-validator)[
+[![Latest Stable Version](https://img.shields.io/packagist/v/phpfui/html-validator.svg?style=flat-square)](https://packagist.org/packages/phpfui/html-validator)[![PHP Version](https://img.shields.io/badge/php-%3E%3D%207.1-8892BF.svg?style=flat-square)](https://php.net)[![License](https://img.shields.io/github/license/phpfui/html-validator.svg?style=flat-square)](https://packagist.org/packages/phpfui/html-validator)[
 
 Fork of [christeredvartsen/html-validator](https://github.com/christeredvartsen/html-validator) that supports Guzzle V8.
 

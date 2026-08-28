@@ -1,5 +1,5 @@
 {
-    "name": "rexxars/html-validator",
+    "name": "phpfui/html-validator",
     "description": "Validates HTML using Validator.nu",
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
         "ext-dom": "*"
     },
     "support": {
-        "issues": "https://github.com/rexxars/html-validator/issues"
+        "issues": "https://github.com/phpfui/html-validator/issues"
     },
     "autoload": {
         "psr-0": {
